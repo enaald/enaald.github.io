@@ -40,6 +40,16 @@
       margin-top: 10px;
       font-size: 18px;
     }
+    textarea {
+    width: 100%; /* Lebar 100% dari kontainer */
+    height: auto;
+    padding: 15px; /* Padding untuk membuat ruang di dalam textarea */
+    font-size: 18px; /* Ukuran teks lebih besar */
+    border-radius: 5px; /* Ujung melengkung */
+    border: 1px solid #ccc; /* Warna border */
+    margin-bottom: 15px; /* Jarak antar elemen */
+    resize: vertical; /* Memungkinkan user untuk mengubah tinggi textarea */
+  }
   </style>
 </head>
 <body>
@@ -48,7 +58,7 @@
     <h2>BOBONTOT V1</h2>
     <p>EA KEREN BANGET BOBONTOT PUNYA WEB KEK GINI, HEBAT KAN GUE HAHAHAHAHA</p>
 
-    <input type="text" id="inputText" placeholder="Masukkan teks...">
+    <textarea id="inputText" placeholder="Masukkan teks..." rows="8"></textarea>
 
     <button onclick="translateToSandiAN()">ARTIIN</button>
 
